@@ -5,6 +5,7 @@
         <groupId>es.jpargoteo.bay</groupId>
         <artifactId>bay-fwk-superpom</artifactId>
         <version>1.0.0</version>
+        <relativePath>../bay-microservices-parent-fwk</relativePath>
     </parent>
     <artifactId>bay-fwk</artifactId>
     <version>1.0.0</version>
