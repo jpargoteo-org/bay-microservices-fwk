@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@PropertySource("classpath:hydra-data-mongodb.properties")
+@PropertySource("classpath:bay-data-mongodb.properties")
 @AutoConfigureBefore(value= {MongoAutoConfiguration.class, MongoDataAutoConfiguration.class})
 public class BayDataMongoDBAutoConfiguration {
 }
