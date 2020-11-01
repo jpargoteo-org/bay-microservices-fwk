@@ -24,5 +24,6 @@
         <module>bay-fwk-openapi</module>
         <module>bay-fwk-starters</module>
         <module>bay-fwk-security</module>
+        <module>bay-fwk-data-mongodb</module>
     </modules>
 </project>

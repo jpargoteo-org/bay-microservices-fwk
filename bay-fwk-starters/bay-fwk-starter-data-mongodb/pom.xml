@@ -5,17 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>es.jpargoteo.bay</groupId>
-        <artifactId>bay-fwk</artifactId>
+        <artifactId>bay-fwk-starters</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>bay-fwk-openapi</artifactId>
+    <artifactId>bay-fwk-starter-data-mongodb</artifactId>
     <version>1.0.0</version>
-    <name>Bay Framework OpenAPI</name>
-    <description>Bay Framework OpenAPI</description>
+    <name>Bay Framework starter data mongodb</name>
+    <description>Bay Framework starter data mongodb</description>
     <dependencies>
         <dependency>
-            <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-ui</artifactId>
+            <groupId>es.jpargoteo.bay</groupId>
+            <artifactId>bay-fwk-data-mongodb</artifactId>
         </dependency>
     </dependencies>
 </project>
