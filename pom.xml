@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>es.jpargoteo.bay</groupId>
+        <artifactId>bay-fwk-superpom</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>bay-fwk</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>Bay Framework</name>
+    <description>Bay Framework</description>
+
+    <developers>
+        <developer>
+            <name>Juan Pablo Argote Ortiz</name>
+            <email>jpargoteo@gmail.com</email>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>bay-fwk-rest-services</module>
+        <module>bay-fwk-openapi</module>
+        <module>bay-fwk-starters</module>
+        <module>bay-fwk-security</module>
+    </modules>
+</project>

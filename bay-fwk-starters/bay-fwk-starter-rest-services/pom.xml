@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>es.jpargoteo.bay</groupId>
+		<artifactId>bay-fwk-starters</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>bay-fwk-starter-rest-services</artifactId>
+	<version>1.0.0</version>
+	<name>Bay Framework starter rest services</name>
+	<description>Bay Framework starter rest services</description>
+	<dependencies>
+		<dependency>
+			<groupId>es.jpargoteo.bay</groupId>
+			<artifactId>bay-fwk-rest-services</artifactId>
+		</dependency>
+	</dependencies>
+</project>

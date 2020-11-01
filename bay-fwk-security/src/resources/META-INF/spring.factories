@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+es.jpargoteo.bay.fwk.security.config.BaySecurityAutoConfiguration
